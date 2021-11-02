@@ -193,6 +193,10 @@ p {
     padding: 2.5rem 0;
 }
 
+.about-paragraphs p{
+    font-size:large;
+    color:rgb(70, 69, 69);
+}
 
 /* Skills */
 .skills-container h1 {
@@ -368,6 +372,11 @@ p {
     height:100%;
     width:70%;
 }
+
+#my-form-status{
+    color:white;
+    font-size:20px;
+}
 /* Footer Section */
 #footer{
     padding:0% 30%;
@@ -383,71 +392,6 @@ p {
     color:rgb(70, 69, 69);
 }
 
-/* #features {
-    z-index:1;
-    position:relative;
-    z-index:1;
-}
-
-.feature-box {
-    padding:5%;
-    justify-content: center;
-    align-items:center;
-
-}
-
-.fas-features {
-    color:#ef8172;
-    margin-bottom:1rem;
-}
-
-.fas-features:hover {
-    color:#ff4c68;
-}
-.feature-title{
-    font-size:1.5rem;
-    font-weight: bold;
-}
-
-/* Testimonials section */
-/* #testimonials {
-   
-    background-color: #ef8172;
-}
-
-.testimonial-image {
-    width:20%;
-    border-radius: 100%;
-    margin:20px;
-}
-.testimonial-text {
-    font-size: 2.5rem;
-    line-height: 1.5;
-    font-weight:600;
-}
-
-#press {
-    background-color: #ef8172;
-    padding-bottom:3%;
-}
-
-.press-logo {
-    width: 15%;
-    margin:20px 20px 50px;
-} */
-
-/* Footer Section */
-/* #footer{
-    padding:7%  15%;
-}
-
-#footer i {
-    margin:0 10px 20px;
-
-} */
-/* .socials{
-    padding-left:5%;
-} */
 .social-links a {
     display: inline;
     flex-direction: row;
@@ -472,6 +416,11 @@ p {
 
 /*  Media Queries */
 @media (max-width: 991px) {
+    .navbar{
+        justify-content: end;
+        padding-top:2rem;
+    }
+
     #title {
         display:flex;
         text-align:center;
@@ -527,12 +476,16 @@ p {
         padding:0;
     
     }
+    .home-section{
+        height:auto;
+    }
 }
 
 @media (max-width: 600px) {
     .about-paragraphs{
         padding:2rem
     }
+    
 }
 
 @media (max-width: 1060px) {
