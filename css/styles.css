@@ -173,7 +173,7 @@ p {
 }
 
 .about-container{
-    margin: 0 -3rem;
+    margin: 0 -2rem;
 }
 .about-container p{
     margin:1rem 0;
@@ -437,9 +437,9 @@ p {
         padding: 4rem 0;
         height:100%;
     }
-    .about-container{
-        margin: 0 -6rem;
-    }
+    /* .about-container{
+        margin: 0 -2rem;
+    } */
     .skills-section{
         height:100%;
         padding-top:2rem;
